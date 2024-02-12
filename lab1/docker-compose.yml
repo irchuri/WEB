@@ -5,5 +5,5 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - ./code:/code
+      - ./code:/codes
       - ./site.conf:/etc/nginx/conf.d/site.conf
